@@ -2,7 +2,7 @@
 layout: post
 title: 运行Hello World
 subtitle: Hello World
-categories: harmony
+categories: [harmony]
 tags: [harmony]
 ---
 
