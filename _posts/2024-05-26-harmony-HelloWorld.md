@@ -15,5 +15,6 @@ How about a yummy crepe?
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
-banner xxx
-banner: "/assets/images/banners/home.jpeg"
+It can also be centered!
+
+![Crepe](https://communityfile-drcn.op.hicloud.com/FileServer/getFile/cmtyPrivate/011/111/111/0000000000011111111.20231207010750.12569675628354303521207793257908:20240528104824:2800:3EEDA9A518B189628B1FF96C3AA2425B45584CFFDADF6A6DA9B208ECAEACB359.jpg){: .center-block :}
