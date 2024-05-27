@@ -13,7 +13,7 @@ tags: [harmony]
 
 How about a yummy crepe?
 
-[Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+![Crepe](alliance-communityfile-drcn.dbankcdn.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20240320115203.91366167962986229286550486892474:50001231000000:2800:ED8169DA0CA16DD57FBD1D0157D46D2E1C986D6D46831A6D3478D65052689A39.png)
 
 It can also be centered!
 
