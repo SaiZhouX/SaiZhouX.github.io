@@ -1,9 +1,9 @@
 # Site settings
 title: Thomas Zühlke
-description: 'Business Card Page'
+description: '个人主页'
 url: 'https://www.zuehlke.cloud'
 baseurl: ''
-profilepic: '/images/tzuehlke.jpg'
+profilepic: 'https://picsum.photos/200/300'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
