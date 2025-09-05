@@ -1,37 +1,57 @@
 # Site settings
-title: Thomas Zühlke
-description: 'Business Card Page'
-url: 'https://www.zuehlke.cloud'
-baseurl: ''
-profilepic: '/images/tzuehlke.jpg'
-bkimage: '/images/bk1.jpg'
-google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+title: "Sai Zhou"
+description: "软件开发工程师 | Java | C++ | Android | HarmonyOS"
+url: "https://saizhouX.github.io"
+baseurl: ""
 
-author:
-  name: 'Thomas Zühlke'
-  email: thomas@zuehlke.cloud
-  mastodon: tzuehlke@mstdn.social
-  twitter_username: thomzuehlke
-#  facebook_username: joshgerdes
-  github_username:  tzuehlke
-  linkedin_username:  thomas-zühlke-889182165
-  meetup_name: Azure-Meetup-Rostock-MV
+# User settings
+username: "Sai Zhou"
+user_title: "Software Engineer"
+email: "lostsai82@gmail.com"
+github_username: "SaiZhouX"
+
+# Social Links (可根据需要添加更多)
+social:
+  - title: "github"
+    url: "https://github.com/SaiZhouX"
+  - title: "email"
+    url: "mailto:lostsai82@gmail.com"
 
 # Build settings
-destination: _site
 markdown: kramdown
 highlighter: rouge
+permalink: /:year/:month/:day/:title/
 
-sass:
-    sass_dir: _sass
-    style: compressed
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
 
-#plugins: ['jekyll-paginate']
-exclude: ['README.md', 'screenshot-overview.png']
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

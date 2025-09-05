@@ -1,58 +1,94 @@
-# projects section data
-- name: A repo with workflow, that downloads the current Pay-As-You-Go prices from Azure once a month and saves them in ~40MB files
-  gh_user: tzuehlke
-  repo: AzurePAYGPrices
-  img: https://blog.zuehlke.cloud/wp-content/uploads/2024/04/AzureCostExportPAYG-Overview-945x293.png
+# Sai Zhou's projects section data
+- name: "抱山文房电商客户端"
+  # gh_user: "SaiZhouX"
+  repo: "BSWF-Client"
+  img: "/images/project-1.jpg"
+  desc: |
+    ## 🎨 抱山文房电商客户端
+    
+    **抱山文房** - 古风文房四宝电商平台，基于 **Uniapp + Vue3 + Pinia** 开发，专注传统笔墨纸砚商品，支持微信小程序、H5、App多端运行。
+    
+    ### ✨ 核心特色
+    - 🎭 **古风主题设计** - 营造浓厚的传统文化氛围
+    - 📱 **多端适配** - 微信小程序、H5网页、iOS/Android App
+    - 🛒 **完整电商功能** - 商品展示、购物车、订单管理、支付
+    - 🎯 **3D商品展示** - 支持砚台等古风文房四宝的3D模型交互
+    
+    ### 🛠️ 技术栈
+    `Uniapp` `Vue3` `Pinia` `TypeScript` `SCSS` `3D展示`
 
-- name: A regular rebuild and hosting of the TOR snowflake project (to provide access to censored websites)
-  gh_user: tzuehlke
-  repo: snowflake
-  img: https://blog.zuehlke.cloud/wp-content/uploads/2023/05/snowflake-logs.png
+- name: "抱山文房电商服务端"
+  # gh_user: "SaiZhouX"
+  repo: "BSWF-Server"
+  img: "/images/project-2.jpg"
+  desc: |
+    ## ⚡ 抱山文房服务端
+    
+    **抱山文房**古风文房四宝电商平台的后端服务系统，基于 **Spring Boot 3** + MyBatis-Plus + MySQL 构建，专业支撑传统笔墨纸砚商品交易。
+    
+    ### 🚀 技术亮点
+    - 🔧 **Spring Boot 3.2.0** - 最新框架，性能优异
+    - 🔐 **Spring Security + JWT** - 安全认证体系
+    - 💾 **MyBatis-Plus + MySQL 8.0** - 数据持久化
+    - ⚡ **Redis缓存** - 响应速度优化
+    - 📚 **Knife4j接口文档** - 开发效率提升
+    
+    ### 🛠️ 技术栈
+    `Spring Boot 3` `Spring Security` `MyBatis-Plus` `MySQL` `Redis` `JWT`
 
-- name: A Wordle Sover as Blazer WebAssembly
-  gh_user: tzuehlke
-  repo: wordle-solver
-  img: https://user-images.githubusercontent.com/32843441/150650516-1998923f-b836-4256-99b0-a5e3e86a3322.png
+- name: "鱼类销售管理系统"
+  # gh_user: "SaiZhouX"
+  repo: "SaleSystem"
+  img: "/images/project-3.jpg"
+  desc: |
+    ## 🐠 微信小程序鱼类销售管理系统
+    
+    专为鱼类销售商打造的**数字化管理系统**，实现库存、销售、财务一体化管理。
+    
+    ### 🎯 核心功能
+    - 🐟 **库存管理** - 详细记录鱼类进货信息、价格
+    - 💰 **销售追踪** - 标记销售状态，记录销售数据
+    - 📊 **财务管理** - 收支记录，财务汇总分析
+    - 📱 **QR码功能** - 唯一标识，扫码快速查找管理
+    - 🔄 **数据同步** - 小程序数据备份到服务器
+    
+    ### 🛠️ 技术栈
+    `微信小程序` `WXML/WXSS` `JavaScript` `QR码生成` `数据同步`
 
-- name: Long running Azure Functions on Consumption Plan
-  gh_user: tzuehlke
-  repo: AzureFunction-TimeoutCheck
-  img: https://user-images.githubusercontent.com/32843441/147861707-a0c412ab-93d6-4fd2-86f4-2ef2b2722c47.png
+- name: "SaleSystemBoard - 数据看板"
+  # gh_user: "SaiZhouX"
+  repo: "SaleSystemBoard"
+  img: "/images/project-4.jpg"
+  desc: |
+    ## 📊 斗鱼养殖业务数据可视化看板
+    
+    基于 **Python Tkinter** 开发的专业数据可视化看板系统，为斗鱼养殖商提供实时业务监控。
+    
+    ### 📈 核心功能
+    - 🐠 **实时监控** - 鱼类库存、健康状态跟踪
+    - 📊 **数据分析** - 出售/未出售/死亡信息统计
+    - 💰 **财务分析** - 总支出/总收入可视化
+    - 📋 **报表生成** - 自动生成日报、周报、月报
+    - 📤 **数据导出** - 支持Excel、PDF格式导出
+    
+    ### 🛠️ 技术栈
+    `Python` `Tkinter` `matplotlib` `pandas` `numpy` `数据可视化`
 
-- name: Keycloak Dockerfile with SSH
-  gh_user: tzuehlke
-  repo: keycloakssh
-  img: https://user-images.githubusercontent.com/32843441/147859397-a1dbc63b-c58f-4536-ae8a-d51e17aa08ce.png
-
-- name: Monopoly Money Manager
-  gh_user: tzuehlke
-  repo: MonopolyMoneyManager
-  img: https://user-images.githubusercontent.com/32843441/103153706-bad12c80-4792-11eb-880b-1bf966d6d2a1.png
-
-- name: Azure Gremlin API
-  gh_user: tzuehlke
-  repo: AzGremlinRestApi
-  img: https://user-images.githubusercontent.com/32843441/103159777-d86fb780-47cd-11eb-9952-ea0242e0ab9d.png
-
-- name: Debug Container
-  gh_user: tzuehlke
-  repo: DebugContainer
-  img: https://user-images.githubusercontent.com/32843441/62822286-71724400-bb81-11e9-9c0b-59fe58dd39a8.png
-
-- name: Jekyll Theme
-  gh_user: tzuehlke
-  repo: jekyll-uno-timeline
-  img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
-  desc: This Jekyll Theme. Based on the Uno-Theme with a list of projects as timeline. Like a business card.
-
-- name: Azure Automation Scripts
-  gh_user: tzuehlke
-  repo: scripts
-  #img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  img: https://docs.microsoft.com/de-de/powershell/media/index/ps_black_128.svg
-  desc: Some scripts that I used with Azure Automation. For example a VM Start/Stop script or a script for resetting a VPN tunnel.
-
-- name: Face API
-  gh_user: ArvatoSystems
-  repo: FaceApiWPF
-  img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
+- name: "SaleSystem 服务器端"
+  # gh_user: "SaiZhouX"
+  repo: "SaleSystemServer"
+  img: "/images/project-5.jpg"
+  desc: |
+    ## 🖥️ 微信小程序后端服务
+    
+    为 SaleSystem 微信小程序提供**数据同步和存储服务**的后端支持系统。
+    
+    ### 🔧 主要功能
+    - 📱 **小程序支持** - 微信小程序后端API服务
+    - 🔄 **数据同步** - 鱼类数据管理与实时同步
+    - 💰 **财务数据** - 财务数据实时同步备份
+    - 📤 **文件管理** - 照片、条码文件上传处理
+    - 🌐 **跨域支持** - 多端接入，API标准化
+    
+    ### 🛠️ 技术栈
+    `Node.js` `Express` `MySQL` `RESTful API` `文件上传`
